@@ -31,3 +31,5 @@ echo "login_welcome_msg=\"$word\"">>/etc/synoinfo.conf
 fi
 fi
 rm -rf /tmp/*_bing.jpg
+#设置用户桌面背景，需要到右上角个人设置->桌面->勾选自定义墙纸  6.2-23739可用
+#ln -sf $save /usr/syno/etc/preference/admin/wallpaper
